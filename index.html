@@ -1,1 +1,243 @@
-s123
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Xiaohan Ding's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Xiaohan Ding is currently a Ph.D candidate at Tsinghua University supervised by Prof. Guiguang Ding and an intern at MEGVII Technology working with Dr. Xiangyu Zhang.">
+  <meta name="keywords" content="Xiaohan Ding, 丁霄汉, dingxiaohan, DingXiaoH, Xiaohan, Ding, Deep Learning, Machine Learning, THU, Tsinghua, Computer, Vision">
+  <meta name="author" content="Xiaohan Ding" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+  <!-- <link rel="icon" type="image/png" href="images/icons.png"> -->
+
+  
+  <!--
+  <script src="jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  //-->
+
+</head>
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b>XIAOHAN</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#news" class="w3-bar-item w3-button">News</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+<!--    <a href="#talks" class="w3-bar-item w3-button">Talks</a>-->
+    <a href="#publications" class="w3-bar-item w3-button">Research</a>
+    <a href="#service" class="w3-bar-item w3-button">Services</a>
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">XIAOHAN</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/Xiaohan_scholar.jpg">
+      <h1>Xiaohan Wang</h1>
+        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+          I am a Ph.D candidate at Tsinghua University, Beijing, supervised by Prof. Guiguang Ding.
+        </p>
+        <p class="w3-center">
+          <a href="mailto:dxh17@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=CIjw0KoAAAAJ">Google Scholar</a> &nbsp/&nbsp
+          <a href="https://www.zhihu.com/column/c_168760745"> Zhi Hu </a> &nbsp/&nbsp
+          <a href="https://dblp.org/pid/218/7379.html"> DBLP </a>
+        </p>
+        </tbody></table>
+  </div>
+
+<!-- The News Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="news">
+   <h2>News</h2>
+      <p><li> 08/2021, one paper of the Structural Re-parameterization Universe has been accepted by ICCV 2021.</li></p>
+      <p><li> 06/2021, RepVGG ranks 5th on Twitter hot trends during CVPR!</li></p>
+      <p><li> 03/2021, two papers of the Structural Re-parameterization Universe have been accepted by CVPR 2021.</li></p>
+  </div>
+<!-- The Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h2>Research Projects</h2>
+    <p class="w3-justify">
+        I focus on general model (i.e., backbone) design and optimization. Some of my early works were about general model optimization.
+    </p>
+
+        <h4><li>The Structural Re-parameterization Universe</li></h4>
+        <img style="width:96%;" src="images/repvgg.PNG">
+        <p class="w3-justify">
+        <a style="color: #447ec9" href="https://github.com/DingXiaoH/RepVGG">GitHub (2000 stars)</a> | <a style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
+        </p>
+        <p class="w3-justify">
+        I proposed Structural Re-parameterization, a methodology that converts a specific structure into another via transforming the parameters. I started to investigate into it since ACNet (ICCV 2019) and continued to work on it during my internship with Dr. Xiangyu Zhang. I started to use Structural Re-parameterization to term this methodology since RepVGG (CVPR 2021) and Diverse Branch Block (CVPR 2021). ResRep (ICCV 2021) is a SOTA channel pruning method that uses Structural Re-parameterization.
+        </p>
+
+        <h4><li>Model Compression and Acceleration</li></h4>
+        <img style="width:32%;" src="images/csgd.PNG.png"> &nbsp&nbsp
+        <p class="w3-justify">
+          From 2017 to 2019, I was doing research at Tsinghua University and published several papers on model compression and acceleration.
+        </p>  
+
+  </div>
+  
+  <!-- The Talks Section -->
+<!--  <div class="w3-container w3-light-grey w3-padding-32" id="talks">-->
+<!--    <h2>Talks</h2>-->
+<!--      <p><li> 05/2020, "<a href="https://www.bilibili.com/video/XXX/"> XXXX</a>" at <a href="https://www.xxx.com/"> <strong>XXX</strong></a> using <a  href="https://www.bilibili.com/"><strong>bilibili</strong></a>.</li></p>-->
+<!--  </div>-->
+ <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"" id="publications">
+    <h2>Three Representative Research Papers</h2>
+      <p class="w3-left-align" style="line-height:200%">
+        I take great pleasure in introducing the Structural Re-parameterization Universe to you.
+        I'm interested in devleoping <strong>efficient models</strong> for computer vision (e.g. classification, detection, and super-resolution) using pruning, quantization, distilaltion, NAS, etc.
+      </p>
+    <h4> Representatives:</h4>
+      <p>
+      <li><strong>RepVGG: Making VGG-style ConvNets Great Again</strong>
+      <br>
+      <strong>Xiaohan Ding</strong>, Xiangyu Zhang, Ningning Ma, Jungong Han, Guiguang Ding, Jian Sun
+      <br>
+      <em>CVPR</em> 2021 | <a style="color: #447ec9" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf">paper</a>
+      </p>
+
+    <ol>
+      
+
+
+      </ol>
+
+    </p>
+  </div>
+
+<!-- The Services Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="service">
+    <h2>Services</h2>
+      <p><li> Area Chair of <a href="https://icml.cc/Conferences/2021">ICML 2021</a>, <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a>.</p>
+      <p><li> Senior Program Committee Members of <a href="https://ijcai-21.org/">IJCAI 2021</a>, <a href="https://www.ijcai20.org/">IJCAI 2020</a> and <a href="https://www.ijcai19.org/program-committee.html">IJCAI 2019</a>.</p>
+      <p><li> Journal Reviewers of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE T-PAMI</a>, <a href="https://www.springer.com/journal/11263">IJCV</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">IEEE T-IP</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE T-NNLS</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">IEEE T-MM</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69">IEEE T-KDE</a>, etc.</p>
+      <p><li> Program Committee Members of ICCV 2021, AAAI 2021, ICLR 2021, NeurIPS 2020, ICML 2020, ECCV 2020, CVPR 2020, ICLR 2020, AAAI 2020, ICCV 2019, CVPR 2019, ICLR 2019, AAAI 2019, IJCAI 2018, AAAI 2018, NeurIPS 2018, etc.</p>
+  </div>
+
+  <!-- The Awards Section -->
+  <div class="w3-container w3-padding-32" id="award">
+    <h2>Three Selected Awards</h2>
+    <p><li> 2019, <a href="http://scholarship.baidu.com/">Baidu Scholarship</a></p>
+    <p><li> 2019, National Scholarship for Graduate Students</p>
+    <p><li> 2014, National Scholarship</p>
+  </div>  
+
+  <div class="w3-light-grey w3-center w3-padding-24">
+
+    Many thanks go to Dr. Yunhe Wang, who shared the source code of <a href="https://www.wangyunhe.site/">his homepage</a>.
+
+
+
+  No.
+  <script type="text/javascript">
+  var sc_project=12347113; 
+  var sc_invisible=0; 
+  var sc_security="21aca5d1"; 
+  var sc_https=1; 
+  var scJsHost = "https://";
+  document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+  "statcounter.com/counter/counter.js'></"+"script>");
+  </script> Visitor Since Jun 2020. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+  StatCounter" href="https://statcounter.com/" target="_blank"><img
+  class="statcounter" src="https://c.statcounter.com/12347113/0/21aca5d1/0/"
+  alt="Web Analytics Made Easy - StatCounter"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+
+  </div>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -8,8 +8,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Senior researcher at Tencent AI Lab. PhD from Tsinghua University supervised by Prof. Guiguang Ding.">
-  <meta name="keywords" content="Xiaohan Ding, 丁霄汉, dingxiaohan, DingXiaoH, Xiaohan, Ding, Deep Learning, Machine Learning, THU, Tsinghua, Computer, Vision">
+  <meta name="description" content="Xiaohan Ding (丁霄汉) is a senior researcher at Tencent AI Lab. He got his Ph.D from Tsinghua University supervised by Prof. Guiguang Ding).">
+  <meta name="keywords" content="Xiaohan Ding, 丁霄汉, dingxiaohan, DingXiaoH, Xiaohan, Ding, Deep Learning, Machine Learning, THU, Tsinghua, Computer Vision">
   <meta name="author" content="Xiaohan Ding" />
 
   <link rel="stylesheet" href="w3.css">
@@ -94,7 +94,7 @@
       <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/Xiaohan_scholar.jpg">
       <h1>Xiaohan Ding</h1>
         <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
-          I am a senior researcher at Tencent AI Lab (Shenzhen, China) since 2022. I obtained Ph.D from Tsinghua University supervised by Prof. Guiguang Ding.
+          Xiaohan Ding (丁霄汉) is a senior researcher at Tencent AI Lab (Shenzhen, China) since 2022. He obtained Ph.D from Tsinghua University supervised by Prof. Guiguang Ding.
         </p>
         <p class="w3-center">
           <a href="mailto:xiaohding@gmail.com">Email</a> &nbsp/&nbsp
@@ -108,6 +108,7 @@
 <!-- The News Section -->
   <div class="w3-container w3-light-grey w3-padding-32" id="news">
    <h2>News</h2>
+      <p><li> 10/2022, The methodology of Re-parameterization have been used in PP-YOLOE+, which outperformed YOLOv6 and YOLOv7!</li></p>
       <p><li> 08/2022, RepVGG and the methodology of Re-parameterization (including our recently proposed RepOptimizer) have been used in both YOLOv6 and YOLOv7!</li></p>
     <p><li> 07/2022, the Structural Re-parameterization Universe has got around <b>5000 stars</b> on GitHub. </li></p>
       <p><li> 08/2021, two papers of the Structural Re-parameterization Universe (RepMLPNet and RepLKNet) has been accepted by CVPR 2022.</li></p>
@@ -119,7 +120,7 @@
   <div class="w3-container w3-padding-32" id="projects">
     <h2>Research Projects</h2>
     <p class="w3-justify">
-        I mostly focus on foundation model (i.e., backbone) design and optimization. I take great pleasure in introducing the Structural Re-parameterization Universe to you.
+        I mostly focus on foundation model (i.e., backbone) design and optimization. Some of my works have been used as fundamental tools in academia and industry. I take great pleasure in introducing the Structural Re-parameterization Universe to you.
     </p>
 
         <h4><li>The Structural Re-parameterization Universe</li></h4>
@@ -128,8 +129,15 @@
         <a style="color: #447ec9" href="https://github.com/DingXiaoH/RepVGG">GitHub (2000 stars)</a> | <a style="color: #447ec9" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf">Paper</a>
         </p>
         <p class="w3-justify">
-        I proposed Structural Re-parameterization, a methodology that converts a structure into another via transforming the parameters. I started to investigate into it since ACNet (ICCV 2019) and continued to work on it during my internship with Dr. Xiangyu Zhang at MEGVII Technology. I started to use Structural Re-parameterization to term this methodology since RepVGG (CVPR 2021) and Diverse Branch Block (CVPR 2021). The following works broadened and deepened this research direction. (TODO.)
-       
+        I proposed Structural Re-parameterization, a methodology that converts a structure into another via transforming the parameters. I started to investigate into it since ACNet (ICCV 2019) and continued to work on it during my internship with Dr. Xiangyu Zhang at MEGVII Technology. I started to use Structural Re-parameterization to term this methodology since RepVGG (CVPR 2021) and Diverse Branch Block (CVPR 2021). The following works broadened and deepened this research direction.
+        <p><li> ACNet (ICCV-2019): a building block to improve CNN without any extra inference costs.</li></p>
+        <p><li> RepVGG (CVPR-2021): proposed Structural Re-parameterization and used it to build a super simple but powerful architecture.</li></p>
+        <p><li> DBB (CVPR-2021): proposed a more powerful building block and analyzed why Strutural Re-parameterization worked.</li></p>
+        <p><li> ResRep (ICCV-2021): a state-of-the-art channel pruning method using Structural Re-parameterization.</li></p>
+        <p><li> RepMLPNet (CVPR-2022): vision MLP with local prior injected with Structural Re-parameterization. Still no inference costs!</li></p>
+        <p><li> RepLKNet (CVPR-2022): studied very large kernel (e.g., 31x31) design in modern CNNs. Outperformed Transformers on segmentation and object detection. Used Structural Re-parameterization to further improve the performance. My favorite work of 2022.</li></p>
+        <p><li> RepOptimizer: generalized the idea to Gradient Re-parameterization, which facilitates efficient training of very simple (RepOpt-VGG, which is plain even during training) and quantization-friendly models. Already used in YOLOv6 and deployed in business.</li></p>
+      
         </p>
 
         <h4><li>Model Compression and Acceleration</li></h4>
